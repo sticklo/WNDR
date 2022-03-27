@@ -19,9 +19,11 @@ function LandingPage() {
         <h2 className="text-center font-bold text-[2.2rem] mb-8 bg-gradient-to-r from-[#101EC4] to-[#1599C2] landing__coming_soon ">
           Coming Soon
         </h2>
-        <button className="border-2 border-white px-8 py-2">
-          <Link to="/join-waitlist" >Get early access</Link> 
-        </button>
+        <Link to="/join-waitlist">
+          <button className="border-2 border-white px-8 py-2">
+            Get early access
+          </button>
+        </Link>
       </div>
     </div>
   );
