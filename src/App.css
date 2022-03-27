@@ -1,0 +1,12 @@
+.landing{
+    background-image: url(./assets/images/Landing_Background.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.landing__coming_soon {
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;
+}
