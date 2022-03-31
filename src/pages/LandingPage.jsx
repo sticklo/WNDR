@@ -22,7 +22,6 @@ function LandingPage() {
           <h1 className="text-[2.8rem] md:text-[3.8rem] font-bold ">
             Old Meets New
           </h1>
-          {/* <hr className=" w-[70%] h-[0.625rem] bg-gradient-to-r from-[#0e20ec] to-[#d400a1] py-[0.7rem] mx-auto "></hr> */}
           <hr className="hr-border" />
         </div>
         <div>
