@@ -16,10 +16,10 @@ function LandingPage() {
       <div className="flex flex-col h-[81vh] lg:h-[90vh] justify-center items-center ">
         <div className="test">
         <div className="text-center mb-4">
-          <h1 className="text-[2.8rem] md:text-[3.8rem] font-bold">
+          <h1 className="text-[1.9rem] md:text-[3.8rem] font-bold">
             A Place Where
           </h1>
-          <h1 className="text-[2.8rem] md:text-[3.8rem] font-bold ">
+          <h1 className="text-[1.9rem] md:text-[3.8rem] font-bold ">
             Old Meets New
           </h1>
           <hr className="hr-border" />
