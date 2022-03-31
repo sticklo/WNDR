@@ -1,12 +1,47 @@
-.landing{
-    background-image: url(./assets/images/Landing_Background.svg);
+.landing {
+  /* background-image: url(./assets/images/Landing_Background.svg);
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: center; */
+  /* background-image: radial-gradient(circle, #050a48, black); */
 }
 
 .landing__coming_soon {
--webkit-background-clip: text;
--webkit-text-fill-color: transparent;
-background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.btn-waitlist,
+.hr-border {
+  border: 1px solid;
+  border-image-slice: 1;
+  border-image-source: linear-gradient(to right, #0e20ec, #d400a1);
+}
+
+.hr-border {
+  border-width: 0.225rem;
+  margin-inline: auto;
+  width: 70%;
+}
+.test {
+  /* filter: blur(1px) drop-shadow(0px 4px 4px rgba(4, 32, 236, 0.33)); */
+  /* background-color: rgba(14, 32, 236, 0.21); */
+  background-image: radial-gradient(circle, #050a48, black);
+  border-radius: 50%;
+  /* border: 1px solid red; */
+  padding: 3rem;
+  /* box-shadow: 3px -220px 5px 20px rgba(14, 32, 236, 0.21); */
+}
+.rotate {
+  animation: rotation 3s infinite linear;
+}
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
 }

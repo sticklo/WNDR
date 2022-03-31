@@ -1,5 +1,5 @@
 import React from "react";
-import Logo from "../assets/images/Logo.png";
+import Logo from "../assets/images/Logo.svg";
 import Bolt from "../assets/images/Bolt.svg";
 import { Link } from "react-router-dom";
 
@@ -45,7 +45,7 @@ function JoinWaitlist() {
                 placeholder="Email"
                 className="rounded-[2.5px] px-[1.4rem] py-[0.7rem] mb-[1.5rem] text-[black]"
               />
-              <button className="bg-gradient-to-r from-[#101EC4] to-[#1599C2] py-[0.7rem] ">
+              <button className="bg-gradient-to-r from-[#0e20ec] to-[#d400a1] py-[0.7rem] ">
                 Join waitlist
               </button>
             </div>
