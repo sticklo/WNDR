@@ -24,14 +24,10 @@
   margin-inline: auto;
   width: 70%;
 }
-/* .test {
-  background-image: radial-gradient(circle, #050a48, black);
-  border-radius: 50%;
-  padding: 3rem;
-} */
+
 .rotate {
-  animation: rotation 3s infinite linear;
-  animation-delay: 4s;
+  animation: rotation 5s infinite linear;
+  animation-delay: 5s;
 }
 
 @keyframes rotation {
