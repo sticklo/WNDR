@@ -2,7 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-@import url(//db.onlinewebfonts.com/c/78c00aaa77f8d62774f08461424319c6?family=Dr+Web);
 
 
 *{
@@ -12,7 +11,7 @@
 }
 body {
   margin: 0;
-  font-family: "Dr Web";
+  font-family: 'Roboto Mono', monospace;
   /* font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
